@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { 
-  Sparkles, 
+  CheckCircle2, 
   Trash2,
   Bookmark,
   Users,
