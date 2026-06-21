@@ -6,6 +6,7 @@ import {
   LinkedInOutputs, 
   RoadmapInput, 
   RoadmapOutput, 
+  RoadmapPhase,
   EligibilityInput, 
   EligibilityOutput, 
   LeetCodeInput, 
@@ -385,7 +386,7 @@ export function generateRoadmap(input: RoadmapInput): RoadmapOutput {
 
   const phaseDuration = Math.ceil(240 / hours); // In weeks (approx 16-24 weeks overall)
   const roleLower = role.toLowerCase();
-  let phases = [];
+  let phases: RoadmapPhase[] = [];
 
   if (roleLower.includes('frontend') || roleLower.includes('web') || roleLower.includes('ui') || roleLower.includes('react')) {
     phases = [
