@@ -10,7 +10,8 @@ import {
   EligibilityInput, 
   EligibilityOutput, 
   LeetCodeInput, 
-  StudyTask 
+  StudyTask,
+  ExpenseSplitReport
 } from '../types';
 
 // Predefined industry keywords for matches
